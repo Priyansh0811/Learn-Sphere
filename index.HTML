@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="intro-container">
+        <video id="intro-video" width="640" height="360" muted>
+            <source src="https://drive.google.com/uc?export=download&id=1K9H3UF7zsjQ6FGbqrVIrfEP8GQdXyDbT" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="intro-content">
+            <h1 id="form-heading">Student Information Form</h1>
+            <form id="studentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for "class">Class:</label>
+                <select id="class">
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11sc">11 Science</option>
+                    <option value="11com">11 Commerce</option>
+                    <option value="11arts">11 Arts</option>
+                    <option value="12sc">12 Science</option>
+                    <option value="12com">12 Commerce</option>
+                    <option value="12arts">12 Arts</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div id="subjects-container">
+                <!-- Subjects will be displayed here -->
+            </div>
+        </div>
+    </div>
+  
+   <script src="script.js">
+  </script>
+</body>
+</html>
+

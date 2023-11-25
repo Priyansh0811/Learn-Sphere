@@ -1,0 +1,42 @@
+/* Add styles for the subjects page */
+body {
+    background-image: url('https://drive.google.com/uc?export=download&id=1mA7KQE8ocO65tnJRCHhmM5eKcIDO7LGU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFD700; /* Text color */
+}
+
+h1 {
+    color: #FFD700;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.08); /* Semi-transparent white background */
+    color: #30D5C8 ;
+    border-radius: 40%; /* 50% for a perfect circle */
+    width: 140px;
+    height: 140px;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border: 0.6px solid transparent; /* Add a transparent border to the circles */
+}
+
+/* Add hover effect for circles */
+.circle:hover {
+    background-color: #FFFFFF;
+}
